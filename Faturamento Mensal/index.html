@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faturamento Mensal por Estado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Faturamento Mensal por Estado</h1>
+        
+        <div class="resultado">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Estado</th>
+                        <th>Faturamento</th>
+                        <th>Percentual</th>
+                    </tr>
+                </thead>
+                <tbody id="tabelaResultados">
+                    
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <button onclick="calcularPercentuais()">Calcular Percentuais</button>
+            <button onclick="limparResultados()">Limpar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
