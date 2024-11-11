@@ -113,7 +113,7 @@
             <nav>
                 <ul>
                     <li>Discover <span></span></li>
-                    <li>MY LIBRARY </li>
+                    <li>LIBRARY </li>
                     <li>RADIO </li>
                 </ul>
                 <div class="search">
@@ -336,7 +336,7 @@
                         <img src="img/alan.jpg" alt="Alan" title="ALan Walker">
                     </li>
                     <li>
-                        <img src="img/7 Minutoz.jpg" alt="Minutoz" title="7 Minutoz">
+                        <img src="img/7 minutoz.jpeg" alt="Minutoz" title="7 Minutoz">
                     </li>
                     <li>
                         <img src="img/Enygma.jpg" alt="Enygma" title="Enygma">
@@ -356,9 +356,9 @@
                     <li>
                         <img src="img/RIELL.jpg" alt="RIELL" title="RIELL">
                     </li>
-                    <li>
-                        <img src="img/Elley Duhe.jpg" alt="ElleyDuhe" title="Elley Duhe">
-                    </li>
+                    <a href="novatroop.html"><li>
+                        <img src="img/Novatroop.jpg" alt="Novatroop" title="Novatroop">
+                    </li></a>
                     <li>
                         <img src="img/Link Park.jpg" alt="link" title="Link Park">
                     </li>
@@ -373,11 +373,6 @@
         
 
         <div class="master_play">
-            <div class="wave">
-                <div class="wave1"></div>
-                <div class="wave1"></div>
-                <div class="wave1"></div>
-            </div>
             <img src="img/1.jpg" alt="Alan" id="poster_master_play">
             <h5 id="title">On My Way <br>
                 <div class="subtitle">Alan Walker</div>
@@ -388,9 +383,11 @@
                 <i class="bi bi-play-circle-fill" id="masterPlay"></i>
                 <i class="bi bi-skip-end-fill" id="next"></i>
                 <a href="" download id="download_music"><i class="bi bi-cloud-arrow-down-fill"></i></a>
-                <i class="bi bi-music-player" id="box_music"></i>
-                <i class="bi bi-file-play" id="playlistbar"></i>
-                <i class="bi bi-earbuds" id="auri_phone"></i>
+                <div class="wave">
+                    <div class="wave1"></div>
+                    <div class="wave1"></div>
+                    <div class="wave1"></div>
+                </div>
             </div>
             <span id="currentStart">0:00</span>
             <div class="bar">
@@ -401,13 +398,14 @@
             <span id="currentEnd">0:00</span>
 
             <div class="vol">
-                <i class="bi bi-volume-down-fill" id="vol_icon"></i>
+                <i class="bi bi-volume-up-fill" id="vol_icon"></i>
                 <input type="range" id="vol" min="0" value="30" max="100">
                 <div class="vol_bar"></div>
                 <div class="dot" id="vol_dot"></div>
             </div>
+            <i class="bi bi-arrows-angle-expand" id="box_music"></i>
         </div>
     </header>
-    <script src="app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
