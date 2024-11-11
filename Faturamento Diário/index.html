@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faturamento Diário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Relatório de Faturamento Diário</h1>
+        
+        <div class="resultados">
+            <div><strong>Menor Faturamento</strong><p id="menorFaturamento">Aguardando cálculo...</p></div>
+            <div><strong>Maior Faturamento</strong><p id="maiorFaturamento">Aguardando cálculo...</p></div>
+            <div><strong>Média de Faturamento</strong><p id="mediaFaturamento">Aguardando cálculo...</p></div>
+            <div><strong>Dias Acima da Média</strong><p id="diasAcima">Aguardando cálculo...</p></div>
+        </div>
+
+        <div>
+            <button onclick="calcularFaturamento()">Calcular</button>
+            <button onclick="limparResultados()">Limpar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
